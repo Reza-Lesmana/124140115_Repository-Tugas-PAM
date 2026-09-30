@@ -22,6 +22,7 @@ import com.itera.pam.p3.latihan.Handson3Screen
 import com.itera.pam.p3.solusi.Handson1ScreenSolusi
 import com.itera.pam.p3.solusi.Handson2ScreenSolusi
 import com.itera.pam.p3.solusi.Handson3ScreenSolusi
+import com.itera.pam.p3.tugas.MyProfileApp
 
 // Menu sederhana berbasis state (BUKAN Navigation Component — itu materi
 // Pertemuan 5) untuk berpindah antar layar latihan/solusi di hands-on ini.
@@ -30,6 +31,7 @@ private enum class Screen(val label: String) {
     Latihan1("Latihan 1 - ProfileCard"), Solusi1("Solusi 1"),
     Latihan2("Latihan 2 - Login Form"), Solusi2("Solusi 2"),
     Latihan3("Latihan 3 - Product List"), Solusi3("Solusi 3"),
+    Tugas("Tugas Praktikum - My Profile App"),
 }
 
 @Composable
@@ -62,6 +64,7 @@ fun App() {
                     Screen.Solusi2 -> Handson2ScreenSolusi()
                     Screen.Latihan3 -> Handson3Screen()
                     Screen.Solusi3 -> Handson3ScreenSolusi()
+                    Screen.Tugas -> MyProfileApp()
                 }
             }
         }
