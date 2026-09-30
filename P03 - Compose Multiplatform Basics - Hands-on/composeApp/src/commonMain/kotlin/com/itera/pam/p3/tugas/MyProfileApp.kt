@@ -104,7 +104,7 @@ fun ProfileHeader() {
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = "Reza Lesmana",
+            text = "Reza Lesmana Julgi",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
         )
@@ -173,19 +173,19 @@ fun ProfileCard() {
             InfoItem(
                 icon = Icons.Default.Email,
                 title = "Email",
-                value = "reza@email.com"
+                value = "reza.124140115@student.itera.ac.id"
             )
 
             InfoItem(
                 icon = Icons.Default.Phone,
                 title = "Phone",
-                value = "08xxxxxxxxxx"
+                value = "085124875953"
             )
 
             InfoItem(
                 icon = Icons.Default.LocationOn,
                 title = "Location",
-                value = "Lampung, Indonesia"
+                value = "Bandar Lampung, Indonesia"
             )
         }
     }
